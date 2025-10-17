@@ -1,0 +1,12 @@
+<view class="container">
+    <view>
+        <image src="{{avatarUrl}}" class=".img" bindtap="imgClick"></image>
+        <button bindtap="chooseImage" class=".btn_select">选择图片</button>
+        <button form-type="submit" class=".btn_submit" bindtap="submitimg">开始检测</button>
+        <button form-type="submit" class=".btn_submit" bindtap="navigateToAi">询问ai</button>
+    </view>
+    <view class="text-container">
+        <view>{{name_and_nums}}</view>
+        <view class="text" wx:for="{{names}}">{{item.name}}: {{item.value}}</view>
+    </view>
+</view>

@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: 'gltf/pic.jpg'; /* 替换为背景图片的正确路径 */
+  background-size: cover;
+  margin: 0;
+}
+.welcome-message {
+  text-align: center;
+  background-color: rgba(50, 69, 151, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+.title {
+  display: block;
+  margin: 0;
+}
+.start-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  background-color: rgba(137, 149, 206, 0.8);
+}

@@ -1,0 +1,26 @@
+.container {
+  padding: 20rpx;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.result-image {
+  width: 600rpx;
+  height: 600rpx;
+  border: 1px solid #ddd;
+  border-radius: 10rpx;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.result-text {
+  font-size: 32rpx;
+  color: #333;
+}

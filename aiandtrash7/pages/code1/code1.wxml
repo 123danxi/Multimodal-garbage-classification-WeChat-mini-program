@@ -1,0 +1,9 @@
+<view class="codef-flex-col codef-justify-start page">
+  <view class="codef-flex-row section">
+    <image
+      class="codef-self-start image"
+      src="https://ide.code.fun/api/image?token=6693a35e1a1c62001186fca1&name=16be45594116b778d428da9da4d5264d.png"
+    />
+    <view class="codef-self-center section_2 ml-25"></view>
+  </view>
+</view>

@@ -1,0 +1,40 @@
+<view class="container">
+  <canvas type="webgl" id="c" style="width: 100%; height: 100%;"></canvas>
+  <image class="nav-icon" src="/gltf/history.png" bindtap="navigateToCode1" />
+  <view class="window1">
+    <scroll-view class="message-container" scroll-y>
+      <block wx:for="{{messages}}" wx:key="index">
+        <view class="message" wx:if="{{item.isUser}}">
+          <view class="message-row user">
+            
+            <view class="user-message bubble">{{item.content}}
+              <image wx:if="{{item.imgUrl}}" src="{{item.imgUrl}}" mode="widthFix" />
+            </view>
+            <image class="avatar" src="/gltf/yonghu.jpg"></image>
+            
+          </view>
+        </view>
+        <view class="message" wx:else>
+          <view class="message-row bot">
+            <image class="avatar" src="/gltf/laji.png"></image>
+            
+            <view class="bot-message bubble">{{item.content}}
+              <image wx:if="{{item.imgUrl}}" src="{{item.imgUrl}}" mode="widthFix" />
+              <view wx:if="{{analysisResult}}">
+               <text>{{analysisResult}}</text>
+              </view>
+            </view>
+ 
+          </view>
+        </view>
+      </block>
+    </scroll-view>
+    <view class="input-area">
+     <input class="input-box" placeholder="输入消息" value="{{inputMessage}}" bindinput="bindInput" />
+      <image class="givepic-icon" src="/gltf/givepic.png" bindtap="givepicTapHandler" />
+      <image class="send-button" src="/gltf/send.png" bindtap="sendMessage" />
+    </view>
+  </view>
+
+ 
+</view>

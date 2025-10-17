@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="image-container">
+    <image src="{{avatarUrl}}" mode="aspectFit" class="result-image"></image>
+  </view>
+  
+</view>

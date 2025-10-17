@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/chatt/chat",
+    "pages/main/mian",
+    "pages/code1/code1",
+    "pages/result/result"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#48D1CC",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "垃圾分类小帮手"
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

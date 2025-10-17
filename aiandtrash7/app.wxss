@@ -1,0 +1,520 @@
+/************************************************************
+** 请将全局样式拷贝到项目的全局 CSS 文件或者当前页面的顶部 **
+** 否则页面将无法正常显示                                  **
+************************************************************/
+
+page {
+  width: 100vw;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', 'Microsoft Yahei', sans-serif;
+}
+
+view,
+image,
+text {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.codef-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.codef-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.codef-justify-start {
+  justify-content: flex-start;
+}
+
+.codef-justify-end {
+  justify-content: flex-end;
+}
+
+.codef-justify-center {
+  justify-content: center;
+}
+
+.codef-justify-between {
+  justify-content: space-between;
+}
+
+.codef-justify-around {
+  justify-content: space-around;
+}
+
+.codef-justify-evenly {
+  justify-content: space-evenly;
+}
+
+.codef-items-start {
+  align-items: flex-start;
+}
+
+.codef-items-end {
+  align-items: flex-end;
+}
+
+.codef-items-center {
+  align-items: center;
+}
+
+.codef-items-baseline {
+  align-items: baseline;
+}
+
+.codef-items-stretch {
+  align-items: stretch;
+}
+
+.codef-self-start {
+  align-self: flex-start;
+}
+
+.codef-self-end {
+  align-self: flex-end;
+}
+
+.codef-self-center {
+  align-self: center;
+}
+
+.codef-self-baseline {
+  align-self: baseline;
+}
+
+.codef-self-stretch {
+  align-self: stretch;
+}
+
+.codef-flex-1 {
+  flex: 1 1 0%;
+}
+
+.codef-flex-auto {
+  flex: 1 1 auto;
+}
+
+.codef-grow {
+  flex-grow: 1;
+}
+
+.codef-grow-0 {
+  flex-grow: 0;
+}
+
+.codef-shrink {
+  flex-shrink: 1;
+}
+
+.codef-shrink-0 {
+  flex-shrink: 0;
+}
+
+.codef-relative {
+  position: relative;
+}
+
+.codef-ml-2 {
+  margin-left: 3.49rpx;
+}
+
+.codef-mt-2 {
+  margin-top: 3.49rpx;
+}
+
+.codef-ml-4 {
+  margin-left: 6.98rpx;
+}
+
+.codef-mt-4 {
+  margin-top: 6.98rpx;
+}
+
+.codef-ml-6 {
+  margin-left: 10.47rpx;
+}
+
+.codef-mt-6 {
+  margin-top: 10.47rpx;
+}
+
+.codef-ml-8 {
+  margin-left: 13.95rpx;
+}
+
+.codef-mt-8 {
+  margin-top: 13.95rpx;
+}
+
+.codef-ml-10 {
+  margin-left: 17.44rpx;
+}
+
+.codef-mt-10 {
+  margin-top: 17.44rpx;
+}
+
+.codef-ml-12 {
+  margin-left: 20.93rpx;
+}
+
+.codef-mt-12 {
+  margin-top: 20.93rpx;
+}
+
+.codef-ml-14 {
+  margin-left: 24.42rpx;
+}
+
+.codef-mt-14 {
+  margin-top: 24.42rpx;
+}
+
+.codef-ml-16 {
+  margin-left: 27.91rpx;
+}
+
+.codef-mt-16 {
+  margin-top: 27.91rpx;
+}
+
+.codef-ml-18 {
+  margin-left: 31.4rpx;
+}
+
+.codef-mt-18 {
+  margin-top: 31.4rpx;
+}
+
+.codef-ml-20 {
+  margin-left: 34.88rpx;
+}
+
+.codef-mt-20 {
+  margin-top: 34.88rpx;
+}
+
+.codef-ml-22 {
+  margin-left: 38.37rpx;
+}
+
+.codef-mt-22 {
+  margin-top: 38.37rpx;
+}
+
+.codef-ml-24 {
+  margin-left: 41.86rpx;
+}
+
+.codef-mt-24 {
+  margin-top: 41.86rpx;
+}
+
+.codef-ml-26 {
+  margin-left: 45.35rpx;
+}
+
+.codef-mt-26 {
+  margin-top: 45.35rpx;
+}
+
+.codef-ml-28 {
+  margin-left: 48.84rpx;
+}
+
+.codef-mt-28 {
+  margin-top: 48.84rpx;
+}
+
+.codef-ml-30 {
+  margin-left: 52.33rpx;
+}
+
+.codef-mt-30 {
+  margin-top: 52.33rpx;
+}
+
+.codef-ml-32 {
+  margin-left: 55.81rpx;
+}
+
+.codef-mt-32 {
+  margin-top: 55.81rpx;
+}
+
+.codef-ml-34 {
+  margin-left: 59.3rpx;
+}
+
+.codef-mt-34 {
+  margin-top: 59.3rpx;
+}
+
+.codef-ml-36 {
+  margin-left: 62.79rpx;
+}
+
+.codef-mt-36 {
+  margin-top: 62.79rpx;
+}
+
+.codef-ml-38 {
+  margin-left: 66.28rpx;
+}
+
+.codef-mt-38 {
+  margin-top: 66.28rpx;
+}
+
+.codef-ml-40 {
+  margin-left: 69.77rpx;
+}
+
+.codef-mt-40 {
+  margin-top: 69.77rpx;
+}
+
+.codef-ml-42 {
+  margin-left: 73.26rpx;
+}
+
+.codef-mt-42 {
+  margin-top: 73.26rpx;
+}
+
+.codef-ml-44 {
+  margin-left: 76.74rpx;
+}
+
+.codef-mt-44 {
+  margin-top: 76.74rpx;
+}
+
+.codef-ml-46 {
+  margin-left: 80.23rpx;
+}
+
+.codef-mt-46 {
+  margin-top: 80.23rpx;
+}
+
+.codef-ml-48 {
+  margin-left: 83.72rpx;
+}
+
+.codef-mt-48 {
+  margin-top: 83.72rpx;
+}
+
+.codef-ml-50 {
+  margin-left: 87.21rpx;
+}
+
+.codef-mt-50 {
+  margin-top: 87.21rpx;
+}
+
+.codef-ml-52 {
+  margin-left: 90.7rpx;
+}
+
+.codef-mt-52 {
+  margin-top: 90.7rpx;
+}
+
+.codef-ml-54 {
+  margin-left: 94.19rpx;
+}
+
+.codef-mt-54 {
+  margin-top: 94.19rpx;
+}
+
+.codef-ml-56 {
+  margin-left: 97.67rpx;
+}
+
+.codef-mt-56 {
+  margin-top: 97.67rpx;
+}
+
+.codef-ml-58 {
+  margin-left: 101.16rpx;
+}
+
+.codef-mt-58 {
+  margin-top: 101.16rpx;
+}
+
+.codef-ml-60 {
+  margin-left: 104.65rpx;
+}
+
+.codef-mt-60 {
+  margin-top: 104.65rpx;
+}
+
+.codef-ml-62 {
+  margin-left: 108.14rpx;
+}
+
+.codef-mt-62 {
+  margin-top: 108.14rpx;
+}
+
+.codef-ml-64 {
+  margin-left: 111.63rpx;
+}
+
+.codef-mt-64 {
+  margin-top: 111.63rpx;
+}
+
+.codef-ml-66 {
+  margin-left: 115.12rpx;
+}
+
+.codef-mt-66 {
+  margin-top: 115.12rpx;
+}
+
+.codef-ml-68 {
+  margin-left: 118.6rpx;
+}
+
+.codef-mt-68 {
+  margin-top: 118.6rpx;
+}
+
+.codef-ml-70 {
+  margin-left: 122.09rpx;
+}
+
+.codef-mt-70 {
+  margin-top: 122.09rpx;
+}
+
+.codef-ml-72 {
+  margin-left: 125.58rpx;
+}
+
+.codef-mt-72 {
+  margin-top: 125.58rpx;
+}
+
+.codef-ml-74 {
+  margin-left: 129.07rpx;
+}
+
+.codef-mt-74 {
+  margin-top: 129.07rpx;
+}
+
+.codef-ml-76 {
+  margin-left: 132.56rpx;
+}
+
+.codef-mt-76 {
+  margin-top: 132.56rpx;
+}
+
+.codef-ml-78 {
+  margin-left: 136.05rpx;
+}
+
+.codef-mt-78 {
+  margin-top: 136.05rpx;
+}
+
+.codef-ml-80 {
+  margin-left: 139.53rpx;
+}
+
+.codef-mt-80 {
+  margin-top: 139.53rpx;
+}
+
+.codef-ml-82 {
+  margin-left: 143.02rpx;
+}
+
+.codef-mt-82 {
+  margin-top: 143.02rpx;
+}
+
+.codef-ml-84 {
+  margin-left: 146.51rpx;
+}
+
+.codef-mt-84 {
+  margin-top: 146.51rpx;
+}
+
+.codef-ml-86 {
+  margin-left: 150rpx;
+}
+
+.codef-mt-86 {
+  margin-top: 150rpx;
+}
+
+.codef-ml-88 {
+  margin-left: 153.49rpx;
+}
+
+.codef-mt-88 {
+  margin-top: 153.49rpx;
+}
+
+.codef-ml-90 {
+  margin-left: 156.98rpx;
+}
+
+.codef-mt-90 {
+  margin-top: 156.98rpx;
+}
+
+.codef-ml-92 {
+  margin-left: 160.47rpx;
+}
+
+.codef-mt-92 {
+  margin-top: 160.47rpx;
+}
+
+.codef-ml-94 {
+  margin-left: 163.95rpx;
+}
+
+.codef-mt-94 {
+  margin-top: 163.95rpx;
+}
+
+.codef-ml-96 {
+  margin-left: 167.44rpx;
+}
+
+.codef-mt-96 {
+  margin-top: 167.44rpx;
+}
+
+.codef-ml-98 {
+  margin-left: 170.93rpx;
+}
+
+.codef-mt-98 {
+  margin-top: 170.93rpx;
+}
+
+.codef-ml-100 {
+  margin-left: 174.42rpx;
+}
+
+.codef-mt-100 {
+  margin-top: 174.42rpx;
+}
